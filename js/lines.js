@@ -44,7 +44,7 @@ var drawLines = function(penguins,target,
             .style("top",yPos+"px")
             .style("left",xPos+"px")
             .select("img")
-            .attr("src","../imgs/"+penguins.picture)
+            .attr("src","imgs/"+penguins.picture)
             }
     })
    .on("mouseout",function(penguins)
